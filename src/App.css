@@ -9,7 +9,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: url('../src/component/b7c3969bae0da14eddc2bea1d5c56992.jpg');
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -17,6 +17,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 10px;
 }
 
 .App-link {
@@ -31,3 +32,43 @@
     transform: rotate(360deg);
   }
 }
+.btn-flat {
+  background-color: purple;
+  color: white;
+}
+
+.btn-xxl {
+  padding: 1rem 1.5rem;
+  font-size: 1.5rem; 
+  align-content: center;
+
+}
+
+.form {
+  background-color: rgba(0, 0, 0,0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 50%;
+  height: 100%;
+  border: black solid 2px;
+  font-size: 1rem;
+}
+
+.formbox {
+  width: 80%;
+  height: 50%;
+  
+}
+.signin {
+ flex-direction: column;
+  align-items: center;
+}
+
+#btn {
+  display: flex;
+  justify-content: center;
+}
+
